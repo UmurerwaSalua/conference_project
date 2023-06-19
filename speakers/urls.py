@@ -1,7 +1,7 @@
 from django.urls import path, re_path
 from core import views
 urlpatterns = [
-    # www.conference.rw
+    # www.speakers.rw
     path('', views.home_view, name='home'),
     path('speakers/', views.speakers_view, name='speakers'),
     path('speakers/create', views.create, name='Create speaker'),
@@ -12,6 +12,6 @@ urlpatterns = [
     # path('<pk:id>/', views.testing_stuff, name='testing'),
     # path('<slug:slug>/', views.testing_stuff, name='testing'),
 
-    # www.conference.rw/about/
+    # www.speakers.rw/about/
     path('about/', views.about_view, name='about'),
 ]
