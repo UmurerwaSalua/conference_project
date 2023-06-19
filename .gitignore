@@ -1,4 +1,4 @@
-### VisualStudioCode template
+ ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -6,6 +6,9 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+v_env
+
+ conf_env/
 # Local History for Visual Studio Code
 .history/
 
